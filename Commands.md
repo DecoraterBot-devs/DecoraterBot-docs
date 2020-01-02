@@ -4,13 +4,13 @@ Commands are usually using the `::` prefix.
 
 List of current Plugin Commands.
 
-|   	| Plugin Commands (plugins/credits.py)	|
+|   	| Plugin Commands (credits.py)	|
 |:---------------:	|:------------------------------------------------------------------------------------------------:	|
 | ``::credits``	| Gives Daily Credits even if the Tatsumaki bot is present in the server this command is sent from.	|
 | ``::balance``	| Gives your current Credit Balance.	|
 | ``::givecredits <mention user(required)> <amount(required)>``	| Transfers Credits from you to another user.	|
 
-|   	| Plugin Commands (plugins/moderation.py)	|
+|   	| Plugin Commands (moderation.py)	|
 |:---------------:	|:------------------------------------------------------------------------------------------------:	|
 | ``::prune <number of messages to remove>``	| Prune a specific number of messages. Max is 100 due to Ratelimits. (Servers only)	|
 | ``::kick <mention person here>``	| Kicks the User mentioned.	|
@@ -20,7 +20,7 @@ List of current Plugin Commands.
 | ``::mute <mention>``	| Mutes an user mentioned for a certain amount of time. Requires a role named ``Muted`` to work. (Does not work yet) |
 | ``::clear``	| Clears all messages from bot within a 100 message limit.	|
 
-|   	| Plugin Commands (plugins/voice.py)	|
+|   	| Plugin Commands (voice.py)	|
 |:--------------------------------------------:	|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:	|
 | ``::JoinVoiceChannel``	| Allows the bot to Join a Voice Channel. (You must be in a Voice Channel for it to work)	|
 | ``::play <youtube url here>``	| URL or Serch Term for a video to Play. Note: This does not support youtube Playlists currently.	|
@@ -35,7 +35,7 @@ List of current Plugin Commands.
 <!-- Some commands are commented out here and in the source code until I think more about them.
 I have to decide if I want to officially remove them or keep them and modify them. -->
 
-|   	| Plugin Commands (plugins/commands.py)	|
+|   	| Plugin Commands (commands.py)	|
 |:------:	|:-:	|
 | ``::attack <mention user>``	| Attacks the user mentioned.	|
 | ``::coin``	| Flips an coin that can land on Heads or Tails.	|
@@ -77,7 +77,7 @@ I have to decide if I want to officially remove them or keep them and modify the
 | ``::remove``	| Old command that should me removed or changed to be for any and all servers.	|
 -->
 
-|   	| Plugin Commands (plugins/corecommands.py)	|
+|   	| Plugin Commands (corecommands.py)	|
 |:------:	|:-:	|
 | ``::uptime``	| Makes the bot Reply withh the uptime of the bot's process.	|
 | ``::load <plugin name>``	| Allows loading of bot plugins. (Bot owner only)	|
@@ -91,9 +91,9 @@ I have to decide if I want to officially remove them or keep them and modify the
 
 Most cogs can register their own events. This means they can listen for their own custom stuff.
 
-## plugins/logs.py
+## logs.py
 
-Here is a list of the Discortd.py Events that are used in this plugin as well as what they are used for.
+Here is a list of the Discord.py Events that are used in this plugin as well as what they are used for.
 Note: Events that use Optional Logs are Controlled by ``\\resources\\ConfigData\\Credentials.json``
 
 Documentation on Setting it up is **not** Complete and is present in the Core Repository for the bot located [here](https://github.com/DecoraterBot-devs/DecoraterBot).
