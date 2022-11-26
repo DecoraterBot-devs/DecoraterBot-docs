@@ -6,8 +6,8 @@ List of current Plugin Commands.
 
 |   	| Plugin Commands (credits.py)	|
 |:---------------:	|:------------------------------------------------------------------------------------------------:	|
-| ``/credits``	| Gives Daily Credits even if the Tatsumaki bot is present in the server this command is sent from.	|
-| ``/balance``	| Gives your current Credit Balance.	|
+| ``/credits``	| Gives 500 Daily Credits (work in progress).	|
+| ``/balance``	| Obtain your current Credit Balance.	|
 | ``/givecredits <mention user(required)> <amount(required)>``	| Transfers Credits from you to another user.	|
 
 |   	| Plugin Commands (moderation.py)	|
@@ -18,8 +18,9 @@ List of current Plugin Commands.
 | ``/softban <mention person here>``	| Bans and then Immediately Unbans the user mentioned. (prune kick)	|
 | ``/clear``	| Clears all messages from bot within a 100 message limit.	|
 
-<!-- Some commands are commented out here and in the source code until I think more about them.
-I have to decide if I want to officially remove them or keep them and modify them. -->
+|   	| Plugin Commands (nsfw.py)	|
+|:---------------:	|:------------------------------------------------------------------------------------------------:	|
+| ``/rule34``	| Searches rule34 for images (warning: may return explicit images so it can only be used in nsfw channels as it is hidden otherwise).	|
 
 |   	| Plugin Commands (commands.py)	|
 |:------:	|:-:	|
@@ -33,9 +34,9 @@ I have to decide if I want to officially remove them or keep them and modify the
 
 |   	| Plugin Commands (corecommands.py)	|
 |:------:	|:-:	|
-| ``/load <plugin name>``	| Allows loading of bot plugins. (Bot owner only)	|
-| ``/unload <plugin name>``	| Allows unloading of bot plugins. (Bot owner only)	|
-| ``/reload <plugin name>``	| Allows reloading of bot plugins. (Bot owner only)	|
-| ``/botban <mention user>``	| Bans a specific user from using the bot.	|
-| ``/botunban <mention user>``	| Unbans a specific user for them to the bot.	|
+| ``/load <plugin name>``	| Allows loading of bot plugins (Bot owner only).	|
+| ``/unload <plugin name>``	| Allows unloading of bot plugins (Bot owner only).	|
+| ``/reload <plugin name>``	| Allows reloading of bot plugins (Bot owner only).	|
+| ``/botban <mention user>``	| Bans a specific user from using the bot (Bot owner only).	|
+| ``/botunban <mention user>``	| Unbans a specific user for them to the bot (Bot owner only).	|
 
