@@ -12,10 +12,10 @@ List of current Plugin Commands.
 
 |   	| Plugin Commands (moderation.py)	|
 |:---------------:	|:------------------------------------------------------------------------------------------------:	|
-| ``/prune <number of messages to remove>``	| Prune a specific number of messages. Max is 100 due to Ratelimits. (Servers only)	|
-| ``/kick <mention person here>``	| Kicks the User mentioned.	|
-| ``/ban <mention person here>``	| Bans the User mentioned.	|
-| ``/softban <mention person here>``	| Bans and then Immediately Unbans the user mentioned. (prune kick)	|
+| ``/prune <number of messages to remove>``	| Prune a specific number of messages. Max is 100 due to Ratelimits (Servers only).	|
+| ``/kick <mention person here>``	| Kicks the User mentioned (Servers only).	|
+| ``/ban <mention person here>``	| Bans the User mentioned (Servers only).	|
+| ``/softban <mention person here>``	| Bans and then Immediately Unbans the user mentioned (Servers only) (prune kick).	|
 | ``/clear``	| Clears all messages from bot within a 100 message limit.	|
 
 |   	| Plugin Commands (nsfw.py)	|
@@ -37,6 +37,4 @@ List of current Plugin Commands.
 | ``/load <plugin name>``	| Allows loading of bot plugins (Bot owner only).	|
 | ``/unload <plugin name>``	| Allows unloading of bot plugins (Bot owner only).	|
 | ``/reload <plugin name>``	| Allows reloading of bot plugins (Bot owner only).	|
-| ``/botban <mention user>``	| Bans a specific user from using the bot (Bot owner only).	|
-| ``/botunban <mention user>``	| Unbans a specific user for them to the bot (Bot owner only).	|
 
