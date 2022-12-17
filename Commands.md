@@ -15,6 +15,7 @@ List of current Plugin Commands.
 
 |   	| Plugin Commands (commands.py) (Loaded by Default)	|
 |:------:	|:-:	|
+| ``/commands``	| Displays a link to this file for users to read. |
 | ``/uptime``	| Makes the bot Reply withh the uptime of the bot's process.	|
 | ``/coin``	| Flips an coin that can land on Heads or Tails.	|
 | ``/commands``	| Links to the bot's commands (this file).	|
